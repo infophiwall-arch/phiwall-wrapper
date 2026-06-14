@@ -4,7 +4,7 @@ class PhiWall:
     """The official zero-overhead PII redaction shield for AI builders."""
     def __init__(self, api_key: str):
         self.api_key = api_key
-        self.url = "https://YOUR_HF_USERNAME-YOUR_SPACE_NAME.hf.space/v1/clean"
+        self.url = "https://phiwall-phiwall-engine.hf.space/v1/clean"
         
     def clean(self, text: str) -> str:
         headers = {
